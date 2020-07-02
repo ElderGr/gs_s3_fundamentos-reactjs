@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 interface ContainerProps {
   size?: 'small' | 'large';
+  location: string;
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -22,6 +23,7 @@ export const Container = styled.div<ContainerProps>`
         text-decoration: none;
         font-size: 16px;
         transition: opacity 0.2s;
+        padding-bottom: 10px;
 
         & + a {
           margin-left: 32px;
@@ -31,6 +33,19 @@ export const Container = styled.div<ContainerProps>`
           opacity: 0.6;
         }
       }
+
+      ${props =>
+        props.location === '/'
+          ? css`
+              a:nth-child(1) {
+                border-bottom: 2px solid #ff872c;
+              }
+            `
+          : css`
+              a:nth-child(2) {
+                border-bottom: 2px solid #ff872c;
+              }
+            `}
     }
   }
 `;
