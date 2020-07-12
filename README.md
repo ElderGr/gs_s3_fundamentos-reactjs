@@ -16,7 +16,7 @@ Para a execução do projeto em seu ambiente local é necessário possuir instal
 
 ### backend
 1. A seguir, segue link da aplicação backend da aplicação Gofinances que inclui o passo-a-passo para a instalação e configuração da API.
-> https://github.com/ElderGr/gs_s2_desafio-gofinances
+> https://github.com/ElderGr/gs_s2_desafio_gofinances_api
 
 ### frontend
 1. Faça download do projeto pelo github
