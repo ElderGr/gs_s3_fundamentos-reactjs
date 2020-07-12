@@ -1,10 +1,10 @@
 # Desafio GoStack: Gofinances
 Projeto desenvolvido durante a Semana 3 do bootcamp GoStack, explorando os conceitos de ReactJS como:
-  [x] React Hooks
-  [x] Styled-components
-  [x] Context-api
-  [x] Componentização
-  [x] Estado e imutabilidade
+- [x] React Hooks
+- [x] Styled-components
+- [x] Context-api
+- [x] Componentização
+- [x] Estado e imutabilidade
 
 ## ⚙ Pré-requisitos
 Para a execução do projeto em seu ambiente local é necessário possuir instalado:
@@ -15,7 +15,8 @@ Para a execução do projeto em seu ambiente local é necessário possuir instal
 ## 🛠 Guia de instalação
 
 ### backend
-1. A seguir, segue link da aplicação backend da aplicação Gofinances que inclui o passo-a-passo para a instalação e configuração da API. `https://github.com/ElderGr/gs_s2_desafio-typeorm-upload`
+1. A seguir, segue link da aplicação backend da aplicação Gofinances que inclui o passo-a-passo para a instalação e configuração da API.
+> https://github.com/ElderGr/gs_s2_desafio-gofinances
 
 ### frontend
 1. Faça download do projeto pelo github
